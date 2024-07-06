@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Navigation Menu</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav__list" id="mainMenu">
+                <li class="nav__item">
+                    <button class="nav__button nav__button_active" data-id="home">HOME</button>
+                    <span class="nav__underline"></span>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__button" data-id="first">FIRST PAGE</button>
+                    <span class="nav__underline"></span>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__button" data-id="second">SECOND PAGE</button>
+                    <span class="nav__underline"></span>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__button" data-id="about">ABOUT US</button>
+                    <span class="nav__underline"></span>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__button" data-id="contacts">CONTACTS</button>
+                    <span class="nav__underline"></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section_menu">
+        <div class="container">
+            <div class="section_menu__content">
+                <h2 class="section_menu__title">HAMBURGER MENU</h2>
+                <div class="hamburger_menu">
+                    <button class="button_hamburger" id="hamburgerToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="hamburger_menu__list" id="hamburgerMenu">
+                        <li class="hamburger_menu__item">
+                            <button class="hamburger_menu__button hamburger_menu__button_active"
+                                data-id="home">HOME</button>
+                        </li>
+                        <li class="hamburger_menu__item">
+                            <button class="hamburger_menu__button" data-id="first">FIRST PAGE</button>
+                        </li>
+                        <li class="hamburger_menu__item">
+                            <button class="hamburger_menu__button" data-id="second">SECOND PAGE</button>
+                        </li>
+                        <li class="hamburger_menu__item">
+                            <button class="hamburger_menu__button" data-id="about">ABOUT US</button>
+                        </li>
+                        <li class="hamburger_menu__item">
+                            <button class="hamburger_menu__button" data-id="contacts">CONTACTS</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
